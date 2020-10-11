@@ -1,8 +1,42 @@
 import React from 'react'
 
 export default function Main() {
+  const images = [
+    {
+      path: require('../imgs/html5-plain-wordmark.svg'),
+      alt: 'HTML5 plain wordmark'
+    },
+    {
+      path: require('../imgs/css3-plain-wordmark.svg'),
+      alt: 'CSS3 plain wordmark'
+    },
+    {
+      path: require('../imgs/javascript-plain.svg'),
+      alt: 'JavaScript plain icon'
+    },
+    {
+      path: require('../imgs/git-plain.svg'),
+      alt: 'Git plain icon'
+    },
+    {
+      path: require('../imgs/html5-plain-wordmark.svg'),
+      alt: 'HTML5 plain wordmark'
+    },
+    {
+      path: require('../imgs/react-original-wordmark.svg'),
+      alt: 'React original wordmark'
+    },
+    {
+      path: require('../imgs/redux-original.svg'),
+      alt: 'Redux icon'
+    },
+    {
+      path: require('../imgs/sass-original.svg'),
+      alt: 'SASS original icon'
+    },
+  ]
+
   return (
-    <>
     <main>
         <section id="projects">
           <h2>Projects</h2>
@@ -16,31 +50,13 @@ export default function Main() {
         <section id="skills">
           <h2>Skills</h2>
           <div className="skills-icon-container">
-            <img
-              src={require("../imgs/html5-plain-wordmark.svg")}
-              alt="HTML5 plain wordmark"
-              />
-            <img
-              src={require("../imgs/css3-plain-wordmark.svg")}
-              alt="CSS3 plain wordmark"
-              />
-            <img
-              src={require("../imgs/javascript-plain.svg")}
-              alt="JavaScript plain icon"
-              />
-            <img src={require("../imgs/git-plain.svg")} alt="Git plain icon" />
-            <img
-              src={require("../imgs/react-original-wordmark.svg")}
-              alt="React original wordmark"
-              />
-            <img src={require("../imgs/redux-original.svg")} alt="redux icon" />
-            <img
-              src={require("../imgs/sass-original.svg")}
-              alt="sass original icon"
-              />
+          {
+            images.map((imgs, indx) => (
+              <img key={indx} src={imgs.path} alt={imgs.alt} />
+            ))
+          }
           </div>
         </section>
-      </main>
-              </>
+    </main>
   )
 }
