@@ -80,7 +80,7 @@ header h2 {
   margin: 0 4%;
 }
 
-#about_me .horizontalDivider {
+#about_me .verticalDivider {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -96,5 +96,16 @@ header h2 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+main .horizontalDivider {
+  margin: 5% auto;
+  width: 331px;
+  border: 1px solid #ffff57;
+}
+
+main h2 {
+  font-size: 6rem;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */

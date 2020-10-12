@@ -42,6 +42,7 @@ export default function Main() {
 
   return (
     <main>
+      <hr className='horizontalDivider' />
         <section id="projects">
           <h2>Projects</h2>
           <div>
@@ -51,7 +52,8 @@ export default function Main() {
             <a href="https://nasa-solo-project.netlify.app/">NASA APoD</a>
           </div>
         </section>
-        <section id="skills">
+      <section id="skills">
+      <hr className='horizontalDivider' />
           <h2>Skills</h2>
           <div className="skills-icon-container">
           {

@@ -26,12 +26,12 @@ export default function About() {
           <div className='icons'>
             {
               icons.map((icon, indx) => (
-                <a href={icon.link}> <img key={indx} src={icon.path} alt={icon.alt} /> </a>
+                <a key={indx} href={icon.link}> <img src={icon.path} alt={icon.alt} /> </a>
                 ))
               }
           </div>
         </div>
-      <span className='horizontalDivider' />
+      <span className='verticalDivider' />
       <p>
       Hi I'm a web designer / developer based in Dallas, Texas. I have a passion for web design and love to create for web and mobile devices with the goal to convey the message that you want to send.
       </p>
