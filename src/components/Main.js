@@ -34,6 +34,10 @@ export default function Main() {
       path: require('../imgs/sass-original.svg'),
       alt: 'SASS original icon'
     },
+    {
+      path: require('../imgs/nodejs-plain-wordmark.svg'),
+      alt: 'Node plain wordmark'
+    },
   ]
 
   return (
