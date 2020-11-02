@@ -35,9 +35,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 header h1 {
@@ -45,7 +43,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 #about_me {
@@ -98,14 +96,51 @@ header h2 {
       align-self: center;
 }
 
-main .horizontalDivider {
+#projects h2 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+#projects .projectContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#projects .horizontalDivider {
   margin: 5% auto;
   width: 331px;
   border: 1px solid #ffff57;
 }
 
-main h2 {
+#skills h2 {
   font-size: 6rem;
   text-align: center;
+}
+
+#skills .skills-icon-container {
+  text-align: center;
+}
+
+#skills .skills-icon-container img {
+  width: 8%;
+  margin: 0 1%;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h4 {
+  font-size: 3rem;
+}
+
+#contact p {
+  font-size: 2rem;
+}
+
+#contact .footer-icons img {
+  width: 5%;
+  margin: 0 1%;
 }
 /*# sourceMappingURL=index.css.map */

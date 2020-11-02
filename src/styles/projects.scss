@@ -1,11 +1,15 @@
-main {
+#projects {
+  margin: 5% 0;
+  h2 {
+    font-size: 6rem;
+    text-align: center;
+  }
+  .projectContent {
+    display: flex;
+  }
   .horizontalDivider {
     margin: 5% auto;
     width: 331px;
     border: 1px solid #ffff57;
-  }
-  h2 {
-    font-size: 6rem;
-    text-align: center;
   }
 }

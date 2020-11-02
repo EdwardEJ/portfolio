@@ -1,0 +1,21 @@
+#projects {
+  margin: 5% 0;
+}
+
+#projects h2 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+#projects .projectContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#projects .horizontalDivider {
+  margin: 5% auto;
+  width: 331px;
+  border: 1px solid #ffff57;
+}
+/*# sourceMappingURL=projects.css.map */
