@@ -11,6 +11,7 @@ export default function Main() {
       <Projects />
       <hr className='horizontalDivider' />
       <Skills />
+      <hr className='horizontalDivider' />
     </main>
   );
 }

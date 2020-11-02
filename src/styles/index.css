@@ -46,6 +46,12 @@ header h2 {
   font-size: 6rem;
 }
 
+main .horizontalDivider {
+  margin: 5% auto;
+  width: 331px;
+  border: 1px solid #ffff57;
+}
+
 #about_me {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,12 +118,6 @@ header h2 {
   display: flex;
 }
 
-#projects .horizontalDivider {
-  margin: 5% auto;
-  width: 331px;
-  border: 1px solid #ffff57;
-}
-
 #skills {
   margin: 5% 0;
 }
@@ -144,11 +144,14 @@ header h2 {
 
 #contact h4 {
   font-size: 3rem;
-  margin: 3% 0;
 }
 
 #contact p {
   font-size: 2rem;
+}
+
+#contact .footer-icons {
+  margin: 3% 0;
 }
 
 #contact .footer-icons img {

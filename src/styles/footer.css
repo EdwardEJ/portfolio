@@ -5,11 +5,14 @@
 
 #contact h4 {
   font-size: 3rem;
-  margin: 3% 0;
 }
 
 #contact p {
   font-size: 2rem;
+}
+
+#contact .footer-icons {
+  margin: 1% 0;
 }
 
 #contact .footer-icons img {
