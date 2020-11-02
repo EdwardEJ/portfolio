@@ -5,6 +5,7 @@
 #skills h2 {
   font-size: 6rem;
   text-align: center;
+  margin: 3% 0;
 }
 
 #skills .skills-icon-container {
@@ -12,7 +13,7 @@
 }
 
 #skills .skills-icon-container img {
-  width: 8%;
-  margin: 0 1%;
+  width: 6%;
+  margin: 0 0.5%;
 }
 /*# sourceMappingURL=skills.css.map */
