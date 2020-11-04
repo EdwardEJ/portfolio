@@ -176,6 +176,10 @@ main .horizontalDivider {
   margin: 3%;
 }
 
+#projects .projectContent div a .outside-link {
+  width: 20%;
+}
+
 #skills {
   margin: 5% 0;
 }

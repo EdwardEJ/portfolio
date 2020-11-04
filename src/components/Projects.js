@@ -14,10 +14,24 @@ export default function Projects() {
                 alt='ghibli project'
               />
             </a>
+            <a href='https://github.com/EdwardEJ/Studio-Ghibli-Films'>
+              <img
+                className='outside-link'
+                src={require('../imgs/github-original.svg')}
+                alt='Github icon'
+              />
+            </a>
           </div>
           <div>
             <a href='https://nasa-solo-project.netlify.app/'>
               <img src={require('../imgs/NASAPotD.png')} alt='NASA project' />
+            </a>
+            <a href='https://github.com/EdwardEJ/nasa-photo-of-the-day'>
+              <img
+                className='outside-link'
+                src={require('../imgs/github-original.svg')}
+                alt='Github icon'
+              />
             </a>
           </div>
         </div>
