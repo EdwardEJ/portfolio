@@ -95,12 +95,12 @@ main .horizontalDivider {
 
 #about_me .images_container .icons {
   text-align: center;
-  margin: 10% 0;
+  margin: 5% 0;
 }
 
 #about_me .images_container .icons img {
   width: 15%;
-  margin: 0 4%;
+  margin: 0 3%;
 }
 
 #about_me p {
@@ -217,7 +217,7 @@ main .horizontalDivider {
 }
 
 #contact p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #dcdcdc;
 }
 
