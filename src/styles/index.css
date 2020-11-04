@@ -50,6 +50,7 @@ header h1 {
 
 header h2 {
   font-size: 6rem;
+  color: #dcdcdc;
 }
 
 @media (max-width: 450px) {
@@ -103,7 +104,7 @@ main .horizontalDivider {
 }
 
 #about_me p {
-  color: #e7e3e3;
+  color: #dcdcdc;
   font-size: 3rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -217,6 +218,7 @@ main .horizontalDivider {
 
 #contact p {
   font-size: 2rem;
+  color: #dcdcdc;
 }
 
 #contact .footer-icons {
