@@ -19,8 +19,8 @@ export default function Skills() {
       alt: 'Git plain icon',
     },
     {
-      path: require('../imgs/html5-plain-wordmark.svg'),
-      alt: 'HTML5 plain wordmark',
+      path: require('../imgs/python-original.svg'),
+      alt: 'Python icon',
     },
     {
       path: require('../imgs/react-original-wordmark.svg'),

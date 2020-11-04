@@ -19,4 +19,10 @@
   width: 3%;
   margin: 0 0.5%;
 }
+
+@media (max-width: 450px) {
+  #contact .footer-icons img {
+    width: 10%;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

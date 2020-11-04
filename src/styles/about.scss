@@ -1,6 +1,9 @@
 #about_me {
   display: flex;
   margin: 2%;
+  @media (max-width: 450px) {
+    display: block;
+  }
   .images_container {
     display: flex;
     flex-direction: column;
@@ -14,19 +17,29 @@
       img {
         width: 20%;
         margin: 0 4%;
+        @media (max-width: 450px) {
+          width: 15%;
+        }
       }
+    }
+  }
+  p {
+    color: rgb(231, 227, 227);
+    font-size: 3rem;
+    align-self: center;
+    @media (max-width: 450px) {
+      font-size: 2.5rem;
     }
   }
   .verticalDivider {
     align-self: center;
     width: 0px;
     height: 168px;
-    margin: 0 10%;
+    margin: 0 5%;
     border: 1px solid #ffff57;
-  }
-  p {
-    color: rgb(231, 227, 227);
-    font-size: 3.6rem;
-    align-self: center;
+    @media (max-width: 450px) {
+      margin: 0;
+      border: none;
+    }
   }
 }

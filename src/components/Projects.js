@@ -7,14 +7,18 @@ export default function Projects() {
         <h2>Projects</h2>
         <div className='projectContent'>
           <div>
-            <img src={require('../imgs/NASAPotD.gif')} />
             <a href='https://ghibli-studio-movie-app.herokuapp.com/'>
-              Ghibli Studio Movie App
+              {' '}
+              <img
+                src={require('../imgs/ghibliProject.png')}
+                alt='ghibli project'
+              />
             </a>
           </div>
           <div>
-            <img src={require('../imgs/ghibliProject.gif')} />
-            <a href='https://nasa-solo-project.netlify.app/'>NASA APoD</a>
+            <a href='https://nasa-solo-project.netlify.app/'>
+              <img src={require('../imgs/NASAPotD.png')} alt='NASA project' />
+            </a>
           </div>
         </div>
       </section>

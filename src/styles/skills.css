@@ -8,6 +8,12 @@
   margin: 3% 0;
 }
 
+@media (max-width: 450px) {
+  #skills h2 {
+    font-size: 3rem;
+  }
+}
+
 #skills .skills-icon-container {
   text-align: center;
 }
@@ -15,5 +21,11 @@
 #skills .skills-icon-container img {
   width: 6%;
   margin: 0 0.5%;
+}
+
+@media (max-width: 450px) {
+  #skills .skills-icon-container img {
+    width: 20%;
+  }
 }
 /*# sourceMappingURL=skills.css.map */
