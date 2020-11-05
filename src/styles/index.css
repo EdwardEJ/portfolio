@@ -98,10 +98,6 @@ main .horizontalDivider {
 }
 
 #about_me .images_container .icons {
-  max-width: 80%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
   text-align: center;
   margin: 5% 0;
 }
