@@ -15,7 +15,7 @@ export default function Footer() {
           <img src={require('../imgs/email.svg')} alt='Email icon' />
         </a>
       </div>
-      <p>© Edward Estrada 2020</p>
+      <p>© firstname lastname 2020</p>
     </footer>
   );
 }
