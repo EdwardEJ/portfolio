@@ -60,7 +60,7 @@ header h2 {
 }
 
 main {
-  max-width: 1600px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ main .horizontalDivider {
 }
 
 #about_me .images_container .icons img {
-  width: 15%;
+  width: 12%;
   margin: 0 3%;
 }
 
@@ -214,7 +214,7 @@ main .horizontalDivider {
 }
 
 #skills .skills-icon-container img {
-  max-width: 20%;
+  max-width: 10%;
   margin: 3%;
 }
 
@@ -243,8 +243,8 @@ main .horizontalDivider {
 }
 
 #contact .footer-icons img {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   margin: 0 0.5%;
 }
 
