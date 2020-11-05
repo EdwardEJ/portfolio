@@ -247,13 +247,14 @@ main .horizontalDivider {
 }
 
 #contact .footer-icons img {
-  max-width: 7%;
+  height: 60px;
+  width: 60px;
   margin: 0 0.5%;
 }
 
 @media (max-width: 767px) {
   #contact .footer-icons img {
-    max-width: 9%;
+    max-width: 20%;
   }
 }
 /*# sourceMappingURL=index.css.map */

@@ -14,10 +14,11 @@
   .footer-icons {
     margin: 1% 0;
     img {
-      max-width: 7%;
+      height: 60px;
+      width: 60px;
       margin: 0 0.5%;
       @media (max-width: 767px) {
-        max-width: 9%;
+        max-width: 20%;
       }
     }
   }
