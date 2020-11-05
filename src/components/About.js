@@ -37,9 +37,9 @@ export default function About() {
       </div>
       <span className='verticalDivider' />
       <p>
-        Hi I'm a software developer based in Dallas, Texas. I have a passion for
-        web design and love to create for web and mobile devices with the goal
-        to convey the message that you want to send.
+        Hi! I'm a software developer based in Dallas, Texas. I have a passion
+        for web design and love to create for web and mobile devices with the
+        goal to convey the message that you want to send.
       </p>
     </section>
   );
