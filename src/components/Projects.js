@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <>
       <section id='projects'>
-        <h2>Projects</h2>
+        <h3>Projects</h3>
         <div className='projectContent'>
           <div>
             <a href='https://ghibli-studio-movie-app.herokuapp.com/'>

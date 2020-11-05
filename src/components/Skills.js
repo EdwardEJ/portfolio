@@ -42,7 +42,7 @@ export default function Skills() {
   return (
     <>
       <section id='skills'>
-        <h2>Skills</h2>
+        <h3>Skills</h3>
         <div className='skills-icon-container'>
           {images.map((imgs, indx) => (
             <img key={indx} src={imgs.path} alt={imgs.alt} />

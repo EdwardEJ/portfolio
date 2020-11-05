@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer id='contact'>
-      <h4>Contact Me</h4>
+      <h3>Contact Me</h3>
       <div className='footer-icons'>
         <a href='https://www.linkedin.com/in/ed-estrada/'>
           <img
@@ -15,7 +15,7 @@ export default function Footer() {
           <img src={require('../imgs/email.svg')} alt='Email icon' />
         </a>
       </div>
-      <p>Edward Estrada 2020</p>
+      <p>© Edward Estrada 2020</p>
     </footer>
   );
 }

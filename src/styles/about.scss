@@ -1,17 +1,18 @@
 #about_me {
   display: flex;
   margin: 2%;
-  @media (max-width: 450px) {
+  @media (max-width: 767px) {
     display: block;
   }
   .images_container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     img.aboutMePhoto {
       border-radius: 50%;
     }
     .icons {
+      max-width: 80%;
+      align-self: center;
       text-align: center;
       margin: 5% 0;
       img {
@@ -24,8 +25,10 @@
     color: #dcdcdc;
     font-size: 3rem;
     align-self: center;
-    @media (max-width: 450px) {
+    max-width: 40%;
+    @media (max-width: 767px) {
       font-size: 2.5rem;
+      max-width: 100%;
     }
   }
   .verticalDivider {
@@ -34,7 +37,7 @@
     height: 168px;
     margin: 0 5%;
     border: 1px solid #ffff57;
-    @media (max-width: 450px) {
+    @media (max-width: 767px) {
       margin: 0;
       border: none;
     }
